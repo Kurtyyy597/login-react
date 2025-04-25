@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';  // Import useNavigate
-import './login.css';
-import cafelogo from '../assets/cafelogo.png';
+import './login.css'; 
+import cafelogo from '../Assets/cafelogo.png';
 
 function Login() {
   const [username, setUsername] = useState('');
@@ -11,9 +11,8 @@ function Login() {
 
   const handleLogin = () => {
     if (username === 'kurtmarquez238@gmail.com' && password === '123') {
-      alert('Login success!');
       
-      window.location.href = '/WebsiteCafe.html';  
+      navigate('./WebsiteCafe');  
     } else {
       setMessage('Invalid username or password');
     }

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';  // Import useNavigate
 import './login.css';
-import logo from '../assets/cafelogo.png';
+import logo from '../Assets/cafelogo.png';
 
 function SignUp() {
   const [username, setUsername] = useState('');

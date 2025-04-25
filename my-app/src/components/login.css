@@ -1,16 +1,4 @@
-body {
-  margin: 0;
-  font-family: 'Arial', sans-serif;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  height: 100vh;
-  position: relative;
-  overflow: hidden;
-  padding-top: 20px;
-  background: linear-gradient(to right, #d2a679, #e6c7a1); /* Beige to Light Brown Gradient */
-}
+
 
 @keyframes gradientAnimation {
   0% {
@@ -35,6 +23,7 @@ body {
   opacity: 0.1; 
   pointer-events: none; 
 }
+
 
 .logo-container {
   margin-bottom: 30px;
